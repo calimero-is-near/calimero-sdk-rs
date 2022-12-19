@@ -1,0 +1,7 @@
+[package]
+name = "calimero-sdk"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+calimero-sdk-macros = { path = "../calimero-sdk-macros", versoin = "0.0.1" }

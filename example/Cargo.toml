@@ -1,0 +1,9 @@
+[package]
+name = "calimero-macro-example"
+version = "0.0.0"
+publish = false
+edition = "2021"
+
+[dependencies]
+near-sdk = "4.0.0"
+calimero-sdk = { path = "../calimero-sdk" }

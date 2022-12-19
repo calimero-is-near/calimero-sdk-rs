@@ -1,0 +1,11 @@
+[package]
+name = "calimero-sdk-macros"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = {version = "1", features = ["full", "fold", "extra-traits", "visit"] }
+quote = "1.0.9"
