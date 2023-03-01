@@ -1,7 +1,15 @@
 [package]
 name = "calimero-sdk"
 version = "0.0.1"
+authors = ["Calimero <info@calimero.network>"]
 edition = "2021"
+license = "GPL-3.0-only"
+categories = ["wasm"]
+repository = "https://github.com/calimero-is-near/calimero-sdk-rs"
+homepage = "https://calimero.network/"
+description = """
+Rust convenience library for cross shard contract calls between NEAR and Calimero through the bridge.
+"""
 
 [dependencies]
-calimero-sdk-macros = { path = "../calimero-sdk-macros", versoin = "0.0.1" }
+calimero-sdk-macros = { path = "../calimero-sdk-macros", version = "0.0.1" }

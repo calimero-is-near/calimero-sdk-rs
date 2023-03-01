@@ -1,7 +1,15 @@
 [package]
 name = "calimero-sdk-macros"
 version = "0.0.1"
+authors = ["Calimero <info@calimero.network>"]
 edition = "2021"
+license = "GPL-3.0-only"
+categories = ["wasm"]
+repository = "https://github.com/calimero-is-near/calimero-sdk-rs"
+homepage = "https://calimero.network/"
+description = """
+Main macro of the library for cross shard contract calls between NEAR and Calimero contracts.
+"""
 
 [lib]
 proc-macro = true
