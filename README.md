@@ -1,12 +1,12 @@
 # Usage
 
 To specify which cross shard call contract connector your contract will use. Inside your NEAR contract .rs file add at top:
-```
+```rust
 calimero_cross_shard_connector!("xsc_connector.lal89.dev.calimero.testnet");
 ```
 
 To trigger a cross call execute call this macro:
-```
+```rust
 calimero_cross_call_execute!(
     DESTINATION_CONTRACT_ID,
     DESTINATION_CONTRACT_METHOD,
@@ -23,7 +23,7 @@ Also, the ``#[calimero_expand]`` needs to be called before ``#[near_bindgen]`` i
 for proper functioning on NEAR contracts
 
 E.g.
-```
+```rust
 #[calimero_expand]
 #[near_bindgen]
 impl MyContract {
